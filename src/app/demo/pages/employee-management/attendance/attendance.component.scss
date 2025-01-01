@@ -1,0 +1,70 @@
+.attendance-component .back a{
+    padding: 2px 15px;
+    color: black;
+    background-color: #bcbcbc;
+    border-radius: 4px;
+}
+.attendance-component a:hover{
+    background-color: #c5c4c4;
+    transition: 0.3s ease;
+}
+
+.attendance-component .main-content{
+    margin-top: 16px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.2);
+    border-radius: 2px;
+    overflow: hidden;
+    color: black;
+}
+
+.attendance-component .pageHeader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.attendance-component .pageHeader .titleAndDate h6{
+    font-weight: bold;
+    margin-bottom: -2px;
+}
+.attendance-component .pageHeader .titleAndDate span{
+    font-size: 15px;
+    font-weight: 500;
+}
+.attendance-component .pageHeader .today{
+    padding: 4px 20px;
+    color: white;
+    background-color: #616161;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.attendance-component .main-content table{
+    width: 100%;
+    margin-top: 16px;
+}
+.attendance-component .main-content table th{
+    padding: 5px 0;
+}
+.attendance-component .main-content table td{
+    padding: 10px 0;
+    font-size: 12px;
+}
+.attendance-component .main-content table .name{
+    color: #457cf1;
+}
+.attendance-component .main-content table .position{
+    padding: 4px 10px;
+    color: white;
+    background-color: #a2845e;
+    border-radius: 5px;
+}
+.attendance-component .main-content table .working{
+    padding: 4px 10px;
+    color: white;
+    background-color: #008018;
+    border-radius: 5px;
+}

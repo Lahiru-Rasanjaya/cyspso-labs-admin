@@ -7,6 +7,7 @@ import { EmployeeManagementComponent } from './demo/pages/employee-management/em
 import { PendingRequestComponent } from './demo/pages/employee-management/pending-request/pending-request.component';
 import { ApprovalFormComponent } from './demo/pages/employee-management/pending-request/approval-form/approval-form.component';
 import { EmployeeProfileComponent } from './demo/pages/employee-management/employee-profile/employee-profile.component';
+import { AttendanceComponent } from './demo/pages/employee-management/attendance/attendance.component';
 
 const routes: Routes = [
   {
@@ -57,6 +58,10 @@ const routes: Routes = [
       {
         path: 'employee-profile',
         component: EmployeeProfileComponent
+      },
+      {
+        path: 'attendance',
+        component: AttendanceComponent
       }
     ]
   },

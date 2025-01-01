@@ -32,7 +32,7 @@ const NavigationItems = [
         id: 'dashboard',
         title: 'Dashboard',
         type: 'item',
-        url: '/dashboard',
+        url: '/employee-management',
         icon: 'feather icon-home',
         classes: 'nav-item'
       }
@@ -70,7 +70,7 @@ const NavigationItems = [
             id: 'attendance',
             title: 'Attendance',
             type: 'item',
-            url: '/employee-management'
+            url: '/attendance'
           },
           {
             id: 'badges',
