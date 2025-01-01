@@ -59,12 +59,45 @@ const NavigationItems = [
     icon: 'icon-ui',
     children: [
       {
-        id: 'applications',
-        title: 'Applications',
-        type: 'item',
-        url: '/applications',
+        id: 'employee-management',
+        title: 'Employee Management',
+        type: 'collapse',
+        url: '/',
         icon: 'feather icon-inbox',
-        classes: 'nav-item'
+        
+        children: [
+          {
+            id: 'attendance',
+            title: 'Attendance',
+            type: 'item',
+            url: '/employee-management'
+          },
+          {
+            id: 'badges',
+            title: 'Leave',
+            type: 'item',
+            url: '/'
+          },
+          {
+            id: 'breadcrumb-pagination',
+            title: 'AFKs',
+            type: 'item',
+            url: '/'
+          },
+          {
+            id: 'collapse',
+            title: 'Agreements',
+            type: 'item',
+            url: '/'
+          },
+          {
+            id: 'collapse',
+            title: 'Resignations',
+            type: 'item',
+            url: '/'
+          }
+        ]
+        
       }
     ]
   },

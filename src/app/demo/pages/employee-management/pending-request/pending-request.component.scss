@@ -1,0 +1,61 @@
+.pendingRequestBack a{
+    padding: 2px 15px;
+    color: black;
+    background-color: #bcbcbc;
+    border-radius: 4px;
+}
+.pendingRequestBack a:hover{
+    background-color: #c5c4c4;
+    transition: 0.3s ease;
+}
+.pendingRequest-container{
+    margin-top: 2rem;
+    padding: 20px;
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.pendingRequest-count .count{
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+}
+.pendingRequest-container .userViewTable table{
+    width: 100%;
+    margin-top: 16px;
+    text-align: center;
+}
+.userViewTable table img{
+    max-width: 5vh;
+    border-radius: 100%;
+}
+.userViewTable table tr{
+    border-top: 1px solid rgb(211, 211, 211);
+}
+.userViewTable table td{
+    padding: 10px 0;
+}
+.userViewTable table th{
+    padding: 15px 0;
+}
+.pendingRequest-container .agreementView{
+    padding: 2px 15px;
+    background-color: #3f4d67;
+    color: white;
+    border-radius: 5px;
+}
+.pendingRequest-container .agreementView:hover{
+    background-color: rgb(73, 87, 114);
+    transition: 0.3s ease;
+}
+.pendingRequest-container .approved{
+    padding: 4px 6px;
+    background-color: #ed3e32;
+    color: white;
+    border-radius: 5px;
+}
+.pendingRequest-container .approve{
+    padding: 4px 10px;
+    background-color: #c9b7b6;
+    color: white;
+    border-radius: 5px;
+}

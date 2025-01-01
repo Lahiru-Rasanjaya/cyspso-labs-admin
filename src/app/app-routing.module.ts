@@ -2,6 +2,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AdminComponent } from './theme/layout/admin/admin.component';
 import { GuestComponent } from './theme/layout/guest/guest.component';
+import SamplePageComponent from './demo/extra/sample-page/sample-page.component';
+import { EmployeeManagementComponent } from './demo/pages/employee-management/employee-management.component';
+import { PendingRequestComponent } from './demo/pages/employee-management/pending-request/pending-request.component';
+import { ApprovalFormComponent } from './demo/pages/employee-management/pending-request/approval-form/approval-form.component';
+import { EmployeeProfileComponent } from './demo/pages/employee-management/employee-profile/employee-profile.component';
 
 const routes: Routes = [
   {
@@ -36,6 +41,22 @@ const routes: Routes = [
       {
         path: 'sample-page',
         loadComponent: () => import('./demo/extra/sample-page/sample-page.component')
+      },
+      {
+        path: 'employee-management',
+        component: EmployeeManagementComponent
+      },
+      {
+        path: 'pending-request',
+        component: PendingRequestComponent
+      },
+      {
+        path: 'approval-form',
+        component: ApprovalFormComponent
+      },
+      {
+        path: 'employee-profile',
+        component: EmployeeProfileComponent
       }
     ]
   },

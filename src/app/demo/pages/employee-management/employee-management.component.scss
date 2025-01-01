@@ -1,0 +1,32 @@
+.employeeManagement-container{
+    padding: 20px;
+    border: 2px solid rgb(167, 167, 167);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.allUserCount-PendingReuest{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.allUsersCount .count{
+    font-weight: bold;
+    color: black;
+}
+.pendingRequests a{
+    padding: 5px 16px;
+    background-color: #3f4d67;
+    color: white;
+    border-radius: 5px;
+}
+.pendingRequests a:hover{
+    background-color: rgb(73, 87, 114);
+    transition: 0.3s ease;
+}
+.employeeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}

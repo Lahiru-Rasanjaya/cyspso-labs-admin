@@ -1,0 +1,75 @@
+.approval-container .main-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.approval-container .main-buttons .back a{
+    padding: 5px 15px;
+    color: black;
+    background-color: #bcbcbc;
+    border-radius: 4px;
+}
+.approval-container .main-buttons .back a:hover{
+    background-color: #c5c4c4;
+    transition: 0.3s ease;
+}
+.approval-container .approval-reject{
+    display: flex;
+    gap: 16px;
+}
+.approval-container .approvalButton{
+    padding: 5px 10px;
+    background-color: #ed3e32;
+    color: white;
+    border-radius: 5px;
+}
+.approval-container .approvalButton:hover{
+    background-color: #f74134;
+    transition: 0.3s ease;
+}
+.approval-container .rejectButton{
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.approval-container .main-content{
+    margin: 2rem;
+    border: 2px solid  rgb(211, 211, 211);
+    padding: 4rem;
+    color: black;
+}
+.approval-container .main-content h1{
+    text-align: center;
+    font-size: 3.6em;
+    font-weight: 800;
+}
+.approval-container .firstParagraph{
+    margin-top: 2rem;
+    font-size: 15px;
+    text-align: center;
+}
+.approval-container h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+.approval-container .job{
+    display: flex;
+    gap: 20px;
+    margin-top: 3rem;
+}
+.approval-container .fullTime{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.approval-container .remote{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.approval-container .main-content .para{
+    font-size: 13px;
+    margin-top: 2rem;
+}

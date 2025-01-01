@@ -1,0 +1,197 @@
+.employeeProfile .back a{
+    padding: 2px 15px;
+    color: black;
+    background-color: #bcbcbc;
+    border-radius: 4px;
+}
+.employeeProfile .back a:hover{
+    background-color: #c5c4c4;
+    transition: 0.3s ease;
+}
+.employeeProfile-container{
+    margin-top: 16px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    border-radius: 2px;
+    overflow: hidden;
+    color: black;
+}
+.employeeProfile .topContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.employeeProfile .employeeProfileAndName img{
+    max-width: 10vh;
+    border-radius: 100%;
+}
+
+.employeeProfile .penalty-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.employeeProfile .employeeProfileAndName{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-right: 1rem;
+}
+.profileAndActive-Inactive{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.employeeProfile .activeAndInactive{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.employeeProfile .activeAndInactive .colors{
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 100%;
+}
+.employeeProfile .activeAndInactive{
+    font-size: 12px;
+}
+.employeeProfile .nameAndPosition{
+    display: flex;
+    flex-direction: column;
+}
+.employeeProfile .nameAndPosition .fontsize{
+    font-weight: 500;
+    font-size: 18px;
+}
+.employeeProfile .nameAndPosition .position{
+    font-size: 14px;
+}
+
+.employeeProfile .penalty{
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+.employeeProfile .penalty .bottom{
+    margin-bottom: 10px;
+}
+.employeeProfile .penalty-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.employeeProfile .penalty hr{
+    margin-top: -2px;
+}
+.employeeProfile .penalty .penaltyText{
+    font-weight: 600;
+}
+.employeeProfile .penalty .hours{
+    color: #ae3131;
+    font-weight: 600;
+}
+.employeeProfile .penalty .hourscount{
+    color: black;
+    font-weight: 600;
+}
+
+.employeeProfile .centerContent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.employeeProfile .col-centerContent{
+    display: flex;
+    flex-direction: column;
+}
+.employeeProfile .firstName-lastName{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.employeeProfile .col-centerContent label{
+    font-weight: 500;
+}
+.employeeProfile .col-centerContent input{
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    color: gray;
+    border: none;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.4);
+    border-radius: 2px;
+}
+.employeeProfile .centerContent .col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.employeeProfile .downloadButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #3f4d67;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.employeeProfile .downloadButton:hover{
+    background-color: #4b5b79;
+    transition: 0.3s ease;
+}
+
+.employeeProfile .bottomContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+.employeeProfile .bottomButtons{
+    display: flex;
+    gap: 10px;
+}
+.employeeProfile .CVdownloadButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #3f4d67;
+    color: white;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.employeeProfile .CVdownloadButton:hover{
+    background-color: #4b5b79;
+    transition: 0.3s ease;
+}
+.employeeProfile .agreementDownloadButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #ff8982;
+    color: white;
+    width: 110px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.employeeProfile .agreementDownloadButton:hover{
+    background-color: #fd908a;
+    transition: 0.3s ease;
+}
