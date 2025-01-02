@@ -62,7 +62,7 @@ const NavigationItems = [
         id: 'employee-management',
         title: 'Employee Management',
         type: 'collapse',
-        url: '/',
+        url: '/employee-management',
         icon: 'feather icon-inbox',
         
         children: [
@@ -73,10 +73,10 @@ const NavigationItems = [
             url: '/attendance'
           },
           {
-            id: 'badges',
-            title: 'Leave',
+            id: 'Leave',
+            title: 'Leave Management',
             type: 'item',
-            url: '/'
+            url: '/leave'
           },
           {
             id: 'breadcrumb-pagination',

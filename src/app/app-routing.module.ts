@@ -8,6 +8,7 @@ import { PendingRequestComponent } from './demo/pages/employee-management/pendin
 import { ApprovalFormComponent } from './demo/pages/employee-management/pending-request/approval-form/approval-form.component';
 import { EmployeeProfileComponent } from './demo/pages/employee-management/employee-profile/employee-profile.component';
 import { AttendanceComponent } from './demo/pages/employee-management/attendance/attendance.component';
+import { LeaveComponent } from './demo/pages/employee-management/leave/leave.component';
 
 const routes: Routes = [
   {
@@ -62,6 +63,10 @@ const routes: Routes = [
       {
         path: 'attendance',
         component: AttendanceComponent
+      },
+      {
+        path: 'leave',
+        component: LeaveComponent
       }
     ]
   },

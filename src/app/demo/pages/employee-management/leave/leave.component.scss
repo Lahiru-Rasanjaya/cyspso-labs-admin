@@ -1,0 +1,163 @@
+.leave-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 6px 4px rgba(145,145,145,1);
+    -moz-box-shadow: 0px 0px 6px 4px rgba(145,145,145,1);
+    box-shadow: 0px 0px 4px 0px rgba(145,145,145,1);
+}
+
+.leave-container .stats {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.leave-container .stat-card {
+    padding: 15px 25px;
+    border-radius: 5px;
+    flex: 1;
+    position: relative;
+}
+.leave-container .stat-card::before {
+    content: '';
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 4px 0 0 4px;
+}
+.leave-container .stat-card.all::before { 
+    background: #c282d1; 
+}
+.leave-container .stat-card.approved::before { 
+    background: #41b97e; 
+}
+.leave-container .stat-card.rejected::before { 
+    background: #f44336; 
+}
+.leave-container .stat-card.pending::before { 
+    background: #2196F3; 
+}
+
+.leave-container .stat-title {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+.leave-container .stat-value {
+    font-size: 24px;
+    color: #333;
+}
+.leave-container .stat-card .All { 
+    color: #c282d1; 
+}
+.leave-container .stat-card .Approved{ 
+    color: #41b97e; 
+}
+.leave-container .stat-card .Rejected{ 
+    color: #f44336; 
+}
+.leave-container .stat-card .Pending{ 
+    color: #2196F3; 
+}
+
+.leave-container .section-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.leave-section .section-header h6{
+    font-size: 20px;
+}
+.leave-section .section-header span{
+    font-size: 12px;
+    color: #c282d1;
+}
+
+.leave-container .leave-table {
+    width: 100%;
+}
+
+.leave-container .leave-table th {
+    background: #d1d1d2;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.leave-container .leave-table td {
+    padding: 12px;
+    border-bottom: 1px solid #d1d1d2;
+    text-align: center;
+    color: #5d5d5d;
+}
+.leave-container .leave-table .name{
+    color: #457cf1;
+    text-decoration: underline;
+}
+.leave-container .leave-container .status {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.leave-container .status.approved { 
+    background: #e8f5e9; 
+    color: #41b97e; 
+    border-radius: 2px;
+}
+.leave-container .status.rejected { 
+    background: #f7cece; 
+    color: #f44336;
+    border-radius: 2px;
+    padding: 4px 13px;
+}
+.leave-container .status.pending { 
+    background: #d0effd; 
+    border-radius: 2px;
+    color: #2196F3; 
+    padding: 4px 15px;
+}
+
+.leave-container .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.leave-container .pages{
+    font-size: 14px;
+}
+
+.leave-container .page-btn{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 1px 10px;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    border: none;
+}
+.leave-container .page-btn.boder{
+    border: 2px solid #252525;
+}
+
+.leave-container .page-btn.active{
+    background: #252525;
+    color: white;
+}
+.action-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.leave-container .material-symbols-outlined.visibility{
+    color: #457cf1;
+}
+.leave-container .material-symbols-outlined.delete{
+    color: #f44336;
+}
