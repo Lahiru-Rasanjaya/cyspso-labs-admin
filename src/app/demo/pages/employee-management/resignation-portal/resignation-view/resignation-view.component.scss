@@ -1,0 +1,103 @@
+.resignationView-modal {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 20px;
+}
+
+.resignationView-modal .modal-header {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.resignationView-modal .modal-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+}
+
+.resignationView-modal .close-button {
+    background: #ff0000;
+    border: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-decoration: none;
+}
+.resignationView-modal .close-button:hover {
+    background: #cc0000;
+}
+
+.resignationView-modal .modal-body {
+    margin-top: -1rem;
+    padding: 20px;
+}
+.resignationView-modal .form-group {
+    margin-bottom: 20px;
+}
+.resignationView-modal .form-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 12px;
+}
+.resignationView-modal .form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #f4f7fa;
+    color: #454545;
+    text-align: justify;
+}
+.resignationView-modal textarea.form-control {
+    height: 120px;
+    resize: vertical;
+}
+
+.resignationView-modal .download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 5px;
+    background-color: #006400;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    transition: background-color 0.2s;
+}
+.resignationView-modal .download-button:hover {
+    background-color: #005000;
+}
+
+.resignationView-modal .download-icon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.resignationView-modal .download-icon::after {
+    content: '↓';
+    font-size: 10px;
+}

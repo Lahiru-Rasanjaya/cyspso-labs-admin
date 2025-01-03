@@ -92,9 +92,9 @@ const NavigationItems = [
           },
           {
             id: 'collapse',
-            title: 'Resignations',
+            title: 'Resignation Portal',
             type: 'item',
-            url: '/'
+            url: '/resignation-Portal'
           }
         ]
         

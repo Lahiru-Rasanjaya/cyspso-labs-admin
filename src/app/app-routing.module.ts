@@ -10,6 +10,7 @@ import { EmployeeProfileComponent } from './demo/pages/employee-management/emplo
 import { AttendanceComponent } from './demo/pages/employee-management/attendance/attendance.component';
 import { LeaveComponent } from './demo/pages/employee-management/leave/leave.component';
 import { AFKManagementComponent } from './demo/pages/employee-management/afk-management/afk-management.component';
+import { ResignationPortalComponent } from './demo/pages/employee-management/resignation-portal/resignation-portal.component';
 
 const routes: Routes = [
   {
@@ -72,6 +73,10 @@ const routes: Routes = [
       {
         path: 'afk-Management',
         component: AFKManagementComponent
+      },
+      {
+        path: 'resignation-Portal',
+        component: ResignationPortalComponent
       }
     ]
   },
