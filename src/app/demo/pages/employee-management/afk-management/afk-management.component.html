@@ -1,0 +1,79 @@
+<div class="afkManagement-container">
+    <div class="tabs">
+        <button class="tab-button active" (click)="showTab('active')" [class.active]="activeTab === 'active'">Active</button>
+        <button class="tab-button" (click)="showTab('incomplete')" [class.active]="activeTab === 'incomplete'">Incomplete</button>
+        <button class="tab-button" (click)="showTab('complete')" [class.active]="activeTab === 'complete'">Complete</button>
+    </div>
+
+    <div class="table-container">
+        <!-- Active Table -->
+        <table class="table" [class.active]="activeTab === 'active'">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>User Role</th>
+                    <th>Start Time</th>
+                    <th>Expected Return</th>
+                    <th>Elapsed Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let row of activeData">
+                    <td>{{ row.name }}</td>
+                    <td>{{ row.role }}</td>
+                    <td>{{ row.startTime }}</td>
+                    <td>{{ row.expectedReturn }}</td>
+                    <td>{{ row.elapsedTime }}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Incomplete Table -->
+        <table class="table" [class.active]="activeTab === 'incomplete'">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>AFK for</th>
+                    <th>Late Attend</th>
+                    <th>Task</th>
+                    <th>To Be Covered</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let row of incompleteData">
+                    <td>{{ row.name }}</td>
+                    <td>{{ row.afkFor }}</td>
+                    <td>
+                        <span [ngClass]="{'status-yes': row.lateAttend === 'Yes', 'status-no': row.lateAttend === 'No'}">{{ row.lateAttend }}</span>
+                    </td>
+                    <td>{{ row.task }}</td>
+                    <td>{{ row.toBeCovered }}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Complete Table -->
+        <table class="table" [class.active]="activeTab === 'complete'">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Late Attend</th>
+                    <th>Task</th>
+                    <th>Finished On</th>
+                    <th>Late Attend in a Row</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let row of completeData">
+                    <td><a href="#" class="name-link">{{ row.name }}</a></td>
+                    <td class="center">
+                        <span [ngClass]="{'status-yes': row.lateAttend === 'Yes', 'status-no': row.lateAttend === 'No'}">{{ row.lateAttend }}</span>
+                    </td>
+                    <td>{{ row.task }}</td>
+                    <td>{{ row.finishedOn }}</td>
+                    <td class="center">{{ row.lateAttendRow }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

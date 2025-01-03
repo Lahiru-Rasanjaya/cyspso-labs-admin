@@ -80,9 +80,9 @@ const NavigationItems = [
           },
           {
             id: 'breadcrumb-pagination',
-            title: 'AFKs',
+            title: 'AFK Management',
             type: 'item',
-            url: '/'
+            url: '/afk-Management'
           },
           {
             id: 'collapse',

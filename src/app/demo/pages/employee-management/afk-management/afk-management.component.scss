@@ -1,0 +1,87 @@
+.afkManagement-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 6px 4px rgba(145,145,145,1);
+    -moz-box-shadow: 0px 0px 6px 4px rgba(145,145,145,1);
+    box-shadow: 0px 0px 4px 0px rgba(145,145,145,0.5);
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.afkManagement-container .tabs {
+    display: flex;
+    background-color: #eeeeee;
+    color: #252525;
+    margin-bottom: 1rem;
+}
+.afkManagement-container .tab-button {
+    padding: 4px 10px;
+    margin: 6px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.afkManagement-container .tab-button:hover {
+    color: #334155;
+}
+.afkManagement-container .tab-button.active {
+    color: #3b82f6;
+    background-color: #04a9f5;
+    color: white;
+    border-radius: 5px;
+}
+
+.afkManagement-container .table-container {
+    overflow-x: auto;
+}
+.afkManagement-container .table {
+    width: 100%;
+    border-collapse: collapse;
+    display: none;
+}
+.afkManagement-container .table.active {
+    display: table;
+}
+.afkManagement-container th, td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #e2e2e2;
+    color: #5d5d5d; 
+}
+
+.afkManagement-container th {
+    font-weight: 600;
+    border-top: none; 
+    color: black;  
+}
+.afkManagement-container .center{
+    text-align: center;
+}
+
+.afkManagement-container .status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.afkManagement-container .status-yes {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+.afkManagement-container .status-no {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.afkManagement-container .name-link {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.afkManagement-container .name-link:hover {
+    text-decoration: underline;
+}

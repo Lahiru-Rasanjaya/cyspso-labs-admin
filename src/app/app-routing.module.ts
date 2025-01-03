@@ -9,6 +9,7 @@ import { ApprovalFormComponent } from './demo/pages/employee-management/pending-
 import { EmployeeProfileComponent } from './demo/pages/employee-management/employee-profile/employee-profile.component';
 import { AttendanceComponent } from './demo/pages/employee-management/attendance/attendance.component';
 import { LeaveComponent } from './demo/pages/employee-management/leave/leave.component';
+import { AFKManagementComponent } from './demo/pages/employee-management/afk-management/afk-management.component';
 
 const routes: Routes = [
   {
@@ -67,6 +68,10 @@ const routes: Routes = [
       {
         path: 'leave',
         component: LeaveComponent
+      },
+      {
+        path: 'afk-Management',
+        component: AFKManagementComponent
       }
     ]
   },
