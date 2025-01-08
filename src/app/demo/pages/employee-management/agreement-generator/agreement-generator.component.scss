@@ -1,0 +1,80 @@
+.AgreementGenerator-container {
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5rem;
+}
+
+.AgreementGenerator-container .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.AgreementGenerator-container .form-group {
+    margin-bottom: 20px;
+}
+.AgreementGenerator-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+}
+.AgreementGenerator-container input, select {
+    width: 100%;
+    padding: 10px;
+    background-color: #f4f7fa;
+    border: 1px solid #b7b9bb;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.AgreementGenerator-container .date-input {
+    position: relative;
+}
+.AgreementGenerator-container .date-input input {
+    padding-right: 30px;
+}
+
+.AgreementGenerator-container .date-input::after {
+    content: "📅";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.AgreementGenerator-container .button-group {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.AgreementGenerator-container button {
+    padding: 6px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.AgreementGenerator-container .reset-btn {
+    background: none;
+    border: 2px solid #3f4d67;
+    color: #3f4d67;
+    font-weight: 500;
+    padding: 0 40px;
+}
+.AgreementGenerator-container .preview-btn {
+    background: #673f41;
+    color: white;
+}
+.AgreementGenerator-container .export-btn {
+    background: #007b21;
+    color: white;
+}
+.AgreementGenerator-container .button-group span{
+    margin-left: 1px;
+}

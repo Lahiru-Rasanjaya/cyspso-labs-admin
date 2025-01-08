@@ -1,0 +1,73 @@
+.sendViaEmail-modal {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 40px;
+}
+
+.sendViaEmail-modal .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sendViaEmail-modal .modal-title {
+  font-size: 22px;
+  color: #333;
+  margin: 0;
+}
+
+.sendViaEmail-modal .close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 0px 7px;
+  background-color: #ff0000;
+  border-radius: 2px;
+}
+
+.sendViaEmail-modal .close-button img {
+  width: 16px;
+  height: 16px;
+}
+
+.sendViaEmail-modal .input-label {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.sendViaEmail-modal .email-input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  background-color: #f4f7fa;
+}
+
+.sendViaEmail-modal .send-button {
+  width: 100%;
+  padding: 5px;
+  background-color: #056005;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.sendViaEmail-modal .send-button:hover {
+  background-color: #034b03;
+}

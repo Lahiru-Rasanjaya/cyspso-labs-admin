@@ -1,0 +1,47 @@
+<div class="agreement-preview">
+
+    <div *ngIf="isPopupVisible" class="popup-overlay">
+        <div class="popup-content">
+            <app-send-via-email (close)="closePopup()"></app-send-via-email>
+        </div>
+    </div>
+ 
+    <div class="main-buttons">
+        <div class="back">
+            <a href="/agreement-generator">Back</a>
+        </div>
+        <div class="approval-reject">
+            <a href="/agreement-generator/agreement-preview" class="export">Export<mat-icon><span class="material-symbols-outlined">system_update_alt</span></mat-icon></a>
+            <button class="sendViaEmail" (click)="showPopup()"> Send Via Email
+                <mat-icon ><span class="material-symbols-outlined">send</span></mat-icon>
+              </button>
+        </div>
+    </div>
+    <div class="main-content">
+        <h1>Full Stack Software Engineer (Intern)</h1>
+        <p class="firstParagraph">
+            Cypso Labs is looking for a motivated and talented Full Stack Software Engineer Intern to join our dynamic team. This is a hands-on opportunity to work on real-world projects, collaborate with experienced engineers, and gain invaluable skills in developing and maintaining software solutions. If you are passionate about coding, problem-solving, and learning, this role is perfect for you.
+        </p>
+        <h4>About the job</h4>
+        <div class="job">
+            <div class="fullTime">
+                <mat-icon><span class="material-symbols-outlined">date_range</span></mat-icon>
+                <span>Full time</span>
+            </div>
+            <div class="remote">
+                <mat-icon><span class="material-symbols-outlined">language</span></mat-icon>
+                <span>Remote</span>
+            </div>
+        </div>
+        <p class="para">
+            DISCLAIMER:  This job posting is intended for active pooling of candidates who will become part of our talent pool. Your qualifications will be assessed against both current and future job openings. Should your application align with a role that corresponds to your skills and experience, and an opportunity arises, our recruitment team will reach out to you immediately. Please note that this does not guarantee immediate placement or contact. Additionally, we exclusively consider applications from individuals who are currently reside in the US/Canada during their application process.
+        </p>
+        <div class="para">Salary: $60,000 - $70,000 per annum</div>
+        <div class="para">Experience Required:  Minimum 1 year of project experience</div>
+        <div class="para">Description:</div>
+        <p class="para">
+            You will work closely with our senior developers to design, develop, and maintain high-quality websites and web applications. This is an excellent opportunity to gain hands-on experience in a collaborative environment and contribute to exciting projects.
+        </p>
+        <div class="para">Responsibilities</div>
+    </div>
+</div>

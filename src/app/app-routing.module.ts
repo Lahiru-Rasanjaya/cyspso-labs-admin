@@ -11,6 +11,9 @@ import { AttendanceComponent } from './demo/pages/employee-management/attendance
 import { LeaveComponent } from './demo/pages/employee-management/leave/leave.component';
 import { AFKManagementComponent } from './demo/pages/employee-management/afk-management/afk-management.component';
 import { ResignationPortalComponent } from './demo/pages/employee-management/resignation-portal/resignation-portal.component';
+import { AgreementGeneratorComponent } from './demo/pages/employee-management/agreement-generator/agreement-generator.component';
+import { AgreementPreviewComponent } from './demo/pages/employee-management/agreement-generator/agreement-preview/agreement-preview.component';
+import { SendViaEmailComponent } from './demo/pages/employee-management/agreement-generator/agreement-preview/send-via-email/send-via-email.component';
 
 const routes: Routes = [
   {
@@ -24,7 +27,7 @@ const routes: Routes = [
       },
       {
         path: 'dashboard',
-        loadComponent: () => import('./demo/dashboard/dashboard.component')
+        component: EmployeeManagementComponent
       },
       {
         path: 'basic',
@@ -77,7 +80,15 @@ const routes: Routes = [
       {
         path: 'resignation-Portal',
         component: ResignationPortalComponent
-      }
+      },
+      {
+        path: 'agreement-generator',
+        component: AgreementGeneratorComponent
+      },
+      {
+        path: 'agreement-generator/agreement-preview',
+        component: AgreementPreviewComponent
+      },
     ]
   },
   {
