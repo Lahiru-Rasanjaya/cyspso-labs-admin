@@ -14,6 +14,7 @@ import { ResignationPortalComponent } from './demo/pages/employee-management/res
 import { AgreementGeneratorComponent } from './demo/pages/employee-management/agreement-generator/agreement-generator.component';
 import { AgreementPreviewComponent } from './demo/pages/employee-management/agreement-generator/agreement-preview/agreement-preview.component';
 import { SendViaEmailComponent } from './demo/pages/employee-management/agreement-generator/agreement-preview/send-via-email/send-via-email.component';
+import { LeaveApprovalViewComponent } from './demo/pages/employee-management/leave/leave-approval-view/leave-approval-view.component';
 
 const routes: Routes = [
   {
